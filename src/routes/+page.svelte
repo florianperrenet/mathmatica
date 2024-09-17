@@ -86,7 +86,7 @@
 	</div>
 
 
-	<div class="text-7xl text-center text-white font-semibold mb-14">
+	<div class="text-5xl text-center text-white font-medium mb-14">
 	  <div>{question}={value ? value : '?'}</div>
 	</div>
 
