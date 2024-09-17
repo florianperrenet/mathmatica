@@ -86,30 +86,30 @@
 	</div>
 
 
-	<div class="text-4xl text-center text-white font-semibold mb-10">
+	<div class="text-7xl text-center text-white font-semibold mb-14">
 	  <div>{question}={value ? value : '?'}</div>
 	</div>
 
-	<div class="max-w-md space-y-2">
-	  <div class="grid grid-cols-3 gap-x-2">
-	    <button class="py-3 text-white font-medium text-xl px-3 bg-sky-600 w-full shadow-button rounded-md active:shadow-none" on:click={() => addNumber('1')}>1</button>
-	    <button class="py-3 text-white font-medium text-xl px-3 bg-sky-600 w-full shadow-button rounded-md active:shadow-none" on:click={() => addNumber('2')}>2</button>
-	    <button class="py-3 text-white font-medium text-xl px-3 bg-sky-600 w-full shadow-button rounded-md active:shadow-none" on:click={() => addNumber('3')}>3</button>
+	<div class="max-w-md space-y-3">
+	  <div class="grid grid-cols-3 gap-x-3">
+	    <button class="py-4 text-white font-medium text-3xl px-3 bg-sky-600 w-full shadow-button rounded-md" on:click={() => addNumber('1')}>1</button>
+	    <button class="py-4 text-white font-medium text-3xl px-3 bg-sky-600 w-full shadow-button rounded-md" on:click={() => addNumber('2')}>2</button>
+	    <button class="py-4 text-white font-medium text-3xl px-3 bg-sky-600 w-full shadow-button rounded-md" on:click={() => addNumber('3')}>3</button>
 	  </div>
-	  <div class="grid grid-cols-3 gap-x-2">
-	    <button class="py-3 text-white font-medium text-xl px-3 bg-sky-600 w-full shadow-button rounded-md active:shadow-none" on:click={() => addNumber('4')}>4</button>
-	    <button class="py-3 text-white font-medium text-xl px-3 bg-sky-600 w-full shadow-button rounded-md active:shadow-none" on:click={() => addNumber('5')}>5</button>
-	    <button class="py-3 text-white font-medium text-xl px-3 bg-sky-600 w-full shadow-button rounded-md active:shadow-none" on:click={() => addNumber('6')}>6</button>
+	  <div class="grid grid-cols-3 gap-x-3">
+	    <button class="py-4 text-white font-medium text-3xl px-3 bg-sky-600 w-full shadow-button rounded-md" on:click={() => addNumber('4')}>4</button>
+	    <button class="py-4 text-white font-medium text-3xl px-3 bg-sky-600 w-full shadow-button rounded-md" on:click={() => addNumber('5')}>5</button>
+	    <button class="py-4 text-white font-medium text-3xl px-3 bg-sky-600 w-full shadow-button rounded-md" on:click={() => addNumber('6')}>6</button>
 	  </div>
-	  <div class="grid grid-cols-3 gap-x-2">
-	    <button class="py-3 text-white font-medium text-xl px-3 bg-sky-600 w-full shadow-button rounded-md active:shadow-none" on:click={() => addNumber('7')}>7</button>
-	    <button class="py-3 text-white font-medium text-xl px-3 bg-sky-600 w-full shadow-button rounded-md active:shadow-none" on:click={() => addNumber('8')}>8</button>
-	    <button class="py-3 text-white font-medium text-xl px-3 bg-sky-600 w-full shadow-button rounded-md active:shadow-none" on:click={() => addNumber('9')}>9</button>
+	  <div class="grid grid-cols-3 gap-x-3">
+	    <button class="py-4 text-white font-medium text-3xl px-3 bg-sky-600 w-full shadow-button rounded-md" on:click={() => addNumber('7')}>7</button>
+	    <button class="py-4 text-white font-medium text-3xl px-3 bg-sky-600 w-full shadow-button rounded-md" on:click={() => addNumber('8')}>8</button>
+	    <button class="py-4 text-white font-medium text-3xl px-3 bg-sky-600 w-full shadow-button rounded-md" on:click={() => addNumber('9')}>9</button>
 	  </div>
-	  <div class="grid grid-cols-3 gap-x-2">
-	    <button class="py-3 text-white font-medium text-xl px-3 bg-sky-600 w-full shadow-button rounded-md active:shadow-none" on:click={() => addNumber('0')}>0</button>
-	    <button class="py-3 text-white font-medium text-xl px-3 bg-gray-400 w-full shadow-button rounded-md active:shadow-none" on:click={() => addNumber('-')}>-</button>
-	    <button class="py-3 text-white font-medium text-xl px-3 bg-orange-500 w-full shadow-button rounded-md active:shadow-none" on:click={() => clearNumber()}>CE</button>
+	  <div class="grid grid-cols-3 gap-x-3">
+	    <button class="py-4 text-white font-medium text-3xl px-3 bg-sky-600 w-full shadow-button rounded-md" on:click={() => addNumber('0')}>0</button>
+	    <button class="py-4 text-white font-medium text-3xl px-3 bg-gray-400 w-full shadow-button rounded-md" on:click={() => addNumber('-')}>-</button>
+	    <button class="py-4 text-white font-medium text-3xl px-3 bg-orange-500 w-full shadow-button rounded-md" on:click={() => clearNumber()}>CE</button>
 	  </div>
 	</div>
 
